@@ -3,8 +3,6 @@ properties {
     $packagePublishDest = "c:\\temp\"
 }
 
-#Remove this link if want it Configurable
-#$packagePublishDest = "\\kitmeloct1\NuGet Repository\RBH-PricePlus"
 $rootPath = join-path $(Split-Path -parent $MyInvocation.MyCommand.path) "../../" 
 
 task default -depends UT, FT, JT
@@ -34,6 +32,7 @@ task Npm-Install `
 task Build -depends Clean `
             -description "Build sln" {
     write-host "msbuild" -f green
+    #throw "haha"
 }
 
 task Clean -description "clean sln" {
