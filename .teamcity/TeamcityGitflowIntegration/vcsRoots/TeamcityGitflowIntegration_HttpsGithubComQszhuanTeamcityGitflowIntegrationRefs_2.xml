@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="a4e4c6de-82f5-4916-9336-c272e951fdca" type="jetbrains.git" modification-check-interval="30" xsi:noNamespaceSchemaLocation="http://www.jetbrains.com/teamcity/schemas/10.0/project-config.xsd">
+  <name>https://github.com/qszhuan/teamcity-gitflow-integration#refs/heads/master (1)</name>
+  <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
+  <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
+  <param name="authMethod" value="PASSWORD" />
+  <param name="branch" value="refs/heads/master" />
+  <param name="ignoreKnownHosts" value="true" />
+  <param name="secure:password" value="credentialsJSON:f3b399f8-3d88-4710-8b68-77d475f58cd8" />
+  <param name="submoduleCheckout" value="CHECKOUT" />
+  <param name="teamcity:branchSpec"><![CDATA[-:refs/heads/master
++:refs/heads/bugfix/*
++:refs/heads/feature/*]]></param>
+  <param name="url" value="https://github.com/qszhuan/teamcity-gitflow-integration" />
+  <param name="useAlternates" value="true" />
+  <param name="username" value="zhuanqingshan@163.com" />
+  <param name="usernameStyle" value="USERID" />
+</vcs-root>
+
