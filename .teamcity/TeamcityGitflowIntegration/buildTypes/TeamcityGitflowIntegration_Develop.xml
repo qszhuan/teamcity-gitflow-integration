@@ -6,7 +6,7 @@
     <parameters />
     <build-runners />
     <vcs-settings>
-      <vcs-entry-ref root-id="TeamcityGitflowIntegration_HttpsGithubComQszhuanTeamcityGitflowIntegrationRefs_2" />
+      <vcs-entry-ref root-id="TeamcityGitflowIntegration_features" />
     </vcs-settings>
     <requirements />
     <build-triggers>
