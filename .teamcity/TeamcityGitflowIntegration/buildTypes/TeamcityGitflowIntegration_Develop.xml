@@ -13,8 +13,8 @@
       <build-trigger id="vcsTrigger" type="vcsTrigger">
         <parameters>
           <param name="branchFilter"><![CDATA[+:*
--:refs/heads/master
-+:refs/heads/feature/*]]></param>
++:refs/heads/feature/*
+-:<default>]]></param>
           <param name="enableQueueOptimization" value="true" />
           <param name="quietPeriodMode" value="DO_NOT_USE" />
         </parameters>
