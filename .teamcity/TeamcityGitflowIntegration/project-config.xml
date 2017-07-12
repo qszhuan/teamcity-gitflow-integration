@@ -5,10 +5,10 @@
   <project-extensions>
     <extension id="PROJECT_EXT_3" type="versionedSettings">
       <parameters>
-        <param name="buildSettings" value="PREFER_CURRENT" />
+        <param name="buildSettings" value="PREFER_VCS" />
         <param name="credentialsStorageType" value="credentialsJSON" />
         <param name="enabled" value="true" />
-        <param name="rootId" value="TeamcityGitflowIntegration_HttpsGithubComQszhuanTeamcityGitflowIntegrationRefsHe" />
+        <param name="rootId" value="TeamcityGitflowIntegration_HttpsGithubComQszhuanTeamcityGitflowIntegrationRefs_3" />
         <param name="showChanges" value="true" />
       </parameters>
     </extension>
