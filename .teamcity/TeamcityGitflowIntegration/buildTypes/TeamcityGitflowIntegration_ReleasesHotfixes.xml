@@ -6,7 +6,9 @@
     <parameters />
     <build-runners />
     <vcs-settings>
-      <vcs-entry-ref root-id="TeamcityGitflowIntegration_HttpsGithubComQszhuanTeamcityGitflowIntegrationRefs_4" />
+      <vcs-entry-ref root-id="TeamcityGitflowIntegration_HttpsGithubComQszhuanTeamcityGitflowIntegrationRefs_4">
+        <checkout-rule rule="-:refs/heads/master" />
+      </vcs-entry-ref>
     </vcs-settings>
     <requirements />
     <build-triggers>
