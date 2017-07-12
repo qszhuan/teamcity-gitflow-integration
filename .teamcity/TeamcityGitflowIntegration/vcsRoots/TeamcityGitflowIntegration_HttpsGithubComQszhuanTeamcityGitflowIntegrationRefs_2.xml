@@ -6,7 +6,7 @@
   <param name="authMethod" value="PASSWORD" />
   <param name="branch" value="refs/heads/master" />
   <param name="ignoreKnownHosts" value="true" />
-  <param name="secure:password" value="credentialsJSON:f3b399f8-3d88-4710-8b68-77d475f58cd8" />
+  <param name="secure:password" value="credentialsJSON:bdb0654a-ec0e-4af6-9274-1c6abe1f2e0d" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="teamcity:branchSpec"><![CDATA[-:refs/heads/master
 +:refs/heads/bugfix/*
