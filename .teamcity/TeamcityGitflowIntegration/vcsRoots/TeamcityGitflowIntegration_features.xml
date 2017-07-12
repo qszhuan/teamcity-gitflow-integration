@@ -8,8 +8,7 @@
   <param name="ignoreKnownHosts" value="true" />
   <param name="secure:password" value="credentialsJSON:bdb0654a-ec0e-4af6-9274-1c6abe1f2e0d" />
   <param name="submoduleCheckout" value="CHECKOUT" />
-  <param name="teamcity:branchSpec"><![CDATA[-:refs/heads/master
-+:refs/heads/bugfix/*
+  <param name="teamcity:branchSpec"><![CDATA[+:refs/heads/bugfix/*
 +:refs/heads/feature/*]]></param>
   <param name="url" value="https://github.com/qszhuan/teamcity-gitflow-integration" />
   <param name="useAlternates" value="true" />
